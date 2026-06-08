@@ -1,0 +1,309 @@
+/* default */
+*,
+*::before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Properties */
+header {
+  width: 1200px;
+  height: 790px;
+  background: url(images/logo.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+}
+
+/* Default Text & Img Properties */
+h1,
+h2,
+h3,
+p {
+  font-family: sans-serif;
+  color: #004c73;
+  text-align: center;
+}
+
+h1 {
+  padding-top: 30px;
+  font-size: 50px;
+  font-family: "Goldman", sans-serif;
+}
+
+h2 {
+  padding-bottom: 10px;
+  font-family: "Rammetto One", sans-serif;
+}
+
+p {
+  padding: 15px;
+}
+
+span {
+  font-family: "Slackey", sans-serif;
+  color: orangered;
+  font-size: 30px;
+}
+
+/* Navbar Properties */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #004c73;
+  margin: 40px auto 40px auto;
+  width: 100%;
+  height: 100%;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: white;
+  padding: 15px 80px;
+  display: block;
+}
+
+.navbar a:hover {
+  color: white;
+  background-color: #0c79b0;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.current {
+  color: white;
+  background-color: orangered;
+}
+
+/* Home Page */
+#intro-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: auto;
+  font-size: 60px;
+  font-family: "Rammetto One", sans-serif;
+  font-weight: bold;
+  gap: auto;
+  margin-bottom: 25px;
+  color: #022333;
+}
+
+.intro {
+  font-size: 110px;
+  margin-bottom: 100px;
+}
+
+/* Span Class is used for the span elements on the home page only */
+.span {
+  font-family: "Slackey", sans-serif;
+  color: orangered;
+  font-size: 70px;
+}
+
+.products_link {
+  margin: 100px auto;
+}
+
+.products_link a {
+  color: orangered;
+}
+
+/* Products Page */
+
+.img_attr {
+  display: flex;
+  justify-content: left;
+  text-align: center;
+  flex-direction: column;
+  font-size: 5px;
+}
+
+/* Audio */
+#audio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+  font-size: 15px;
+  gap: 5px;
+}
+
+.audio_p {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* Sub-Head 1 */
+#sub_head_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 80px auto;
+  padding: 15px;
+  width: 800px;
+  height: auto;
+  box-shadow: 0px 0px 8px 2px #004c73;
+}
+
+#sub_head_1_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+}
+
+#sub_head_1_content li {
+  list-style-type: none;
+  padding: 20px;
+  font-family: "Rubik", sans-serif;
+}
+
+/* Sub-Head 2 */
+#sub_head_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 80px auto;
+  padding: 15px;
+  width: 800px;
+  height: auto;
+  box-shadow: 0px 0px 8px 2px #004c73;
+}
+
+#sub_head_2_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+}
+
+#sub_head_2_content li {
+  list-style-type: none;
+  padding: 20px;
+  font-family: "Rubik", sans-serif;
+}
+
+/* Sub-Head 3 */
+#sub_head_3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 80px auto;
+  padding: 15px;
+  width: 800px;
+  height: auto;
+  box-shadow: 0px 0px 8px 2px #004c73;
+}
+
+#sub_head_3_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+}
+
+#sub_head_3_content li {
+  list-style-type: none;
+  padding: 20px;
+  font-family: "Rubik", sans-serif;
+}
+
+.contact_link {
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.contact_link a {
+  color: orangered;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Contact Page */
+
+.contact_title {
+  font-size: 100px;
+}
+
+.contact_p {
+  margin: 40px;
+  font-family: "Rammetto One", sans-serif;
+  font-size: 30px;
+}
+
+table {
+  background-color: #004c73;
+  box-shadow: 0px 0px 8px 2px #004c73;
+  margin: 100px auto 100px auto;
+  width: 1200px;
+  height: 450px;
+}
+
+thead {
+  height: 30px;
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
+
+td {
+  padding: 6px;
+  background-color: white;
+  text-align: center;
+  color: #0c79b0;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 25px;
+  margin-top: auto;
+  padding-bottom: 20px;
+  width: 100%;
+  background-color: #022333;
+  height: 80px;
+  background-size: auto;
+  font-size: 12px;
+  text-decoration: none;
+  min-height: 10vh;
+  box-shadow: none;
+}
+
+small {
+  color: white;
+}
+
+.footer_links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  list-style-type: none;
+  margin-top: auto;
+  font-size: 15px;
+}
+
+.footer_links a {
+  color: white;
+}
