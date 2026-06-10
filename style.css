@@ -48,6 +48,9 @@ span {
   font-size: 30px;
 }
 
+figcaption {
+  color: #004c73;
+}
 /* Navbar Properties */
 .navbar {
   display: flex;
