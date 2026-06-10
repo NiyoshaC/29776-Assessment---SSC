@@ -51,6 +51,10 @@ span {
 figcaption {
   color: #004c73;
 }
+
+figcaption a {
+  color: #004c73;
+}
 /* Navbar Properties */
 .navbar {
   display: flex;
